@@ -9,6 +9,7 @@
 
 ### 2. App Demo
 Using the interactive translator App deployed in Gradio, you can input a Chinese sentence and then get the output in English. 
+
 <img src="demo/demo_1.png" alt="Alt text" width="80%"/>
 <img src="demo/demo_2.png" alt="Alt text" width="80%"/>
 
