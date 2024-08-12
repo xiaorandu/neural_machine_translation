@@ -4,14 +4,12 @@
 + [3. Model Training](#3-Model-Training)
 
 ### 1. Introduction
-+ Developed an interactive bilingual translation app utilizing Recurrent Neural Networks (RNN) and Transformer models for neural machine translation.
++ Developed an interactive bilingual translation app utilizing **Recurrent Neural Networks (RNN) and Transformer models** for neural machine translation.
 + Trained a sequence-to-sequence model for translating Chinese Mandarin to English using Anki data.
 
 ### 2. App Demo
-Using the interactive translator App deployed in Gradio, you can input a Chinese sentence and then get the output in English. 
-
-<img src="demo/demo_1.png" alt="Alt text" width="80%"/>
-<img src="demo/demo_2.png" alt="Alt text" width="80%"/>
+Using the interactive translation app deployed with Gradio, you can input a sentence in Chinese and receive the output in English. The demo model is trained using the Transformer architecture.
+![demo](demo/NMT%20Demo.gif)
 
 ### 3. Model Training
 In the notebook [Neural_Machine_Translation.ipynb](https://github.com/xiaorandu/neural_machine_translation/blob/main/Neural_Machine_Translation.ipynb), machine translation is performed by using two deep learning approaches: a Recurrent Neural Network (RNN) and Transformer. Specifically, the Anki data for Chinese Mandarin to English translation is trained using sequence-to-sequence models. 
